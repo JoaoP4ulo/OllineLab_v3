@@ -1,0 +1,23 @@
+{% extends 'bases/base.html' %}
+{% load static %}
+
+
+
+{% block home %}
+<link rel="stylesheet" href="{% static 'dashboard/css/home.css' %}">
+
+    <section class="menu_cima">
+        <div class="produto1">
+            <img src="{% static 'dashboard/img/img-lab1.jpg' %}" alt="img1" style="height: 250px;width: 360px;"><br>
+            <a href="{% url 'lab1' %}">Laboratorio 1</a>
+        </div>
+        
+    </section>
+
+    <section class="menu_baixo">
+
+    </section>
+{% endblock %}
+
+
+

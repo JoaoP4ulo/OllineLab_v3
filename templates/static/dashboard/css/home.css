@@ -1,0 +1,25 @@
+.video1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 20px;
+}
+.menu_cima{
+    position: absolute;
+    padding: 20px;
+    left: 20px;
+    right: 20px;
+    top: 150px;
+    width: 96%; 
+    height: 350px;
+}
+.menu_baixo{
+    position: absolute;
+    padding: 20px;
+    right: 20px;
+    left: 20px;
+    top: 600px;
+    width: 96%; 
+    height: 350px;
+}
+

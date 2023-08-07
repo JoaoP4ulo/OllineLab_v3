@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: #02152E;
+    position: absolute;
+}
+.logo1{
+    align-content: center;
+    width: 457px;
+    height: 77px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
