@@ -1,0 +1,43 @@
+.menu_lateral_esquerdo{
+    position: absolute;
+    padding: 20px;
+    left: 20px;
+    top: 150px;
+    width: 804px; 
+    height: 100px;
+    background-color: red;
+}
+.display_temp{
+    position: absolute;
+    top: 150px;
+    width: 97%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#tela_video{
+    position: absolute;
+    left: 20px;
+}
+.temperatura{
+    position: absolute;  
+    align-items: center;
+    text-align: center; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: #F1F1F1;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+#temp_atual{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+}
+#grafico_1{
+    position: absolute;
+    right: 20px;
+}
