@@ -3,6 +3,7 @@ from .models import SetTemperatura, GetTemperatura
 from django.http import JsonResponse
 import datetime
 import pyrebase
+import pandas as pd
 
 config={
     "apiKey": "AIzaSyCKS7ouEvn4bP0Bxalemw0GuHK6yWLbQhs",
@@ -34,6 +35,9 @@ def ler_temperatura(request):
 
     list_temperatura.append(valor)
     list_temperatura.pop(0)
+
+    with open(f"datareading.csv", 'r+') as arquivo:
+        arquivo.write(list_temperatura)
 
     data_json = {'temperatura': list_temperatura,'labels':['','','','','','','','','','']}
     return JsonResponse(data_json)
